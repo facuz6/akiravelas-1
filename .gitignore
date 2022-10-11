@@ -1,18 +1,99 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/la federal logo" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>La Federal Blues</title>
+</head>
+<body id="arriba">
 
-# Other files and folders
-.settings/
+<header>
+        <img class="imagenHeader" src="img/la federal logo" alt=""> 
+    <nav>
+        <ul class="lista-navegacion">
+            <li> <a href="index.html">Inicio</a></li>
+            <li> <a href="pages/historia.html">historia</a></li>
+            <li> <a href="pages/contacto.html">Contacto</a></li>
+            <li> <a href="pages/integrantes.html">Integrantes</a></li>
+            <li> <a href="pages/temas.html">Temas</a> </li>
+        </ul>
+    </nav>
+    <hr>    
+</header>  
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+<article class="encabezado">
+    <div class="color-encabezado">
+        <h1>NOVEDADES!</h1> 
+            <ol class="novedades">
+                <li>
+                    <!-- cambiar el numeral por la foto en <a href="pages/novedades.html"><img src="#" alt=""></a> -->
+                    <a href="pages/novedades.html"><img src="img/lafederal.png" width="500" height="500" ></a>
+                </li>
+            </ol>
+    </div>
+</article>
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+<section id="productos">
+    <h1>TEMAS</h1>
+
+    <div class="caja_cards"></div>
+<!-- cambiar el src por la foto en img class="card__imagen" src="img/fotoEj.png" alt="foto 1" -->
+    <div class="card">
+        <img class="card__imagen" src="img/fotoEj.png" alt="foto 1">
+
+        <p class="card__parrafo">CAMINAR</p>
+        
+        <p class="card__parrafo--descripcion">A LO LEJOS</p>
+        
+        <p class="card__parrafo--oferta">NUEVO!</p>
+
+        <button class="card__boton">ESCUCHAR</button>
+    </div>
+<!-- cambiar el src por la foto en img class="card__imagen" src="img/fotoEj.png" alt="foto 2" -->
+    <div class="card">
+        <img class="card__imagen" src="img/fotoEj.png" alt="foto 2">
+
+        <p class="card__parrafo">INTENTAR</p>
+        
+        <p class="card__parrafo--descripcion">A LO LEJOS</p>
+
+        <p class="card__parrafo--oferta">NUEVO!</p>
+
+        <button class="card__boton">ESCUCHAR</button>
+    </div>
+<!-- cambiar el src por la foto en img class="card__imagen" src="img/fotoEj.png" alt="foto 3" -->
+    <div class="card">
+        <img class="card__imagen" src="img/fotoEj.png" alt="foto3"> 
+
+        <p class="card__parrafo">VIEJO TORMENTO</p>
+        
+        <p class="card__parrafo--descripcion">A LO LEJOS</p>
+
+        <p class="card__parrafo--oferta">NUEVO!</p>
+
+        <button class="card__boton">ESCUCHAR</button>
+    </div>
+
+</section>
+
+<a href="#arriba"> Ir arriba</a>
+
+
+<a class="whatsapp" href="https://api.whatsapp.com/send?phone=54912345678" target="_blank"><img src="img/wts app.jfif" alt="Imagen whatsapp"></a>
+
+<footer>
+    <p>Seguinos en nuestras redes!</p>
+<ol. class="redes">
+    <li> <a href="https://www.instagram.com/lafederalblues/?hl=es" target="_blank"><img src="img/instagram-brands.svg" alt=""></a> 
+    </li>
+    <li> <a href="https://www.facebook.com/rockeando73" target="_blank"><img src="img/facebook-brands.svg" alt=""></a>
+    </li>
+    <li> <a href="https://www.youtube.com/channel/UC7Se9kJ0lSny-atVPwCEsgw" target="_blank"><img src="img/youtube-brands.svg" alt=""></a>
+    </li>
+</ol.>
+</footer>
+</body>
+</html>
